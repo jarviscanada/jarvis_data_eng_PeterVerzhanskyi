@@ -5,9 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_PeterVerzh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role.
-With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry.
-By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
+summary: I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -46,25 +44,25 @@ jarvis_projects:
     description: Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. 
     Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.
   - name: "Core Java Apps"
-    git_url: "/core_java"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/core_java"
     description:
       - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
       - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
       - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
   - name: "Springboot App"
-    git_url: "/springboot"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/springboot"
     description: ""
   - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/python_data_analytics"
     description: ""
   - name: "Hadoop"
-    git_url: "/hadoop"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/hadoop"
     description: ""
   - name: "Spark"
-    git_url: "/spark"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/spark"
     description: ""
   - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/cloud_devops"
     description: ""
 
 # List of personal or academic projects
@@ -86,15 +84,15 @@ professional_experience:
     company: "Jarvis"
     duration: "2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Collaborated with an agile team to support the development of multiple projects. Created a Linux cluster monitoring agent to collect node performance data, leveraging Docker, Bash scripting, and PostgreSQL."
+    description: Collaborated with an agile team to support the development of multiple projects. Created a Linux cluster monitoring agent to collect node performance data, leveraging Docker, Bash scripting, and PostgreSQL.
   - title: "Junior Full-Stack Developer"
     company: "789ten.com"
     duration: "2024-2024"
-    description: "Contributed to fixing and completing various bugs and tasks in NextJS and Laravel applications. Created clear, well-documented pull requests and worked closely with lead developers to prioritize tasks in a ticketing system. Utilized SQL expertise to optimize slow-performing queries."
+    description: Contributed to fixing and completing various bugs and tasks in NextJS and Laravel applications. Created clear, well-documented pull requests and worked closely with lead developers to prioritize tasks in a ticketing system. Utilized SQL expertise to optimize slow-performing queries.
   - title: "System Administrator/IT Consultant"
     company: "Ponacka Capital Ltd."
     duration: "2017-2023"
-    description: "Oversaw a Windows-based environment, ensuring optimal system performance and security. Managed hardware maintenance, performed system upgrades, and implemented improvements. Delivered technical support to staff, resolving issues efficiently and boosting productivity." 
+    description: Oversaw a Windows-based environment, ensuring optimal system performance and security. Managed hardware maintenance, performed system upgrades, and implemented improvements. Delivered technical support to staff, resolving issues efficiently and boosting productivity. 
 #List of edcuation
 education: 
   - school_name: "George Brown College"
@@ -104,7 +102,7 @@ education:
     # optional
     awards_achievements: 
       - "Multiple Scholarships"
-      - "IEEEXtreme 17: #3 in Canada, #573 Wordlwide"
+      - "IEEEXtreme 17: #3 in Canada, #573 Worldwide"
   - school_name: "V. N. Karazin Kharkiv National University"
     duration: "2009-2014"
     degree: "Master of Applied Physics"
@@ -118,12 +116,10 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - ""
+      - "Placeholder"
   - title: "Awards"
     bullets:
-      - "Winner"
+      - "Placeholder"
   - title: "Activities/Hobbies"
     bullets:
-      - "Canadian musician, multiple time grant recepient"
-      - ""
-      - ""
+      - "Canadian musician, multiple time grant recipient"
