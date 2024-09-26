@@ -5,14 +5,9 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_PeterVerzh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role. 
-With three years of my college experience and almost a decade of experience in IT industry and multiple projects 
-under my belt, I am passionate about building user-friendly, accessible and inclusive application that imporve efficiency
-and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies compliment my strong communication
-and collaboration skills developed during my college tenure, as well as during years of my professional experience in IT/Tech industry.
-Prioritazing feedback and utilizing an interative development process, my empath for the the client experience ensures that my work
-exceeds their expectation. I thrive in fast-paced environments wher my skills, resilience and adaptibility shine and I am eager and excited
-to bring my skills and enthusiasm to your team by delivering exception software sollutions.
+summary: I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role.
+With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry.
+By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -45,10 +40,11 @@ skills:
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
-    git_url: "/linux_sql"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. 
+    Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
@@ -75,15 +71,12 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "Capstone Project: MaplePay app"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    git_url: "https://github.com/PeterVerzhansky/MaplePayApp"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
+    description: MaplePay is a Capstone Project, built using NoSQL/MongoDB, Angular and React. It is a fintech WiP project, built to provide a seamless experience through a Web-app and a ReactNative solution.
+ 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -91,14 +84,17 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-
+    description: "Collaborated with an agile team to support the development of multiple projects. Created a Linux cluster monitoring agent to collect node performance data, leveraging Docker, Bash scripting, and PostgreSQL."
+  - title: "Junior Full-Stack Developer"
+    company: "789ten.com"
+    duration: "2024-2024"
+    description: "Contributed to fixing and completing various bugs and tasks in NextJS and Laravel applications. Created clear, well-documented pull requests and worked closely with lead developers to prioritize tasks in a ticketing system. Utilized SQL expertise to optimize slow-performing queries."
+  - title: "System Administrator/IT Consultant"
+    company: "Ponacka Capital Ltd."
+    duration: "2017-2023"
+    description: "Oversaw a Windows-based environment, ensuring optimal system performance and security. Managed hardware maintenance, performed system upgrades, and implemented improvements. Delivered technical support to staff, resolving issues efficiently and boosting productivity." 
 #List of edcuation
 education: 
   - school_name: "George Brown College"
@@ -107,12 +103,12 @@ education:
     department: "Computer Programming and Analysis"
     # optional
     awards_achievements: 
-      - "Scholarships"
+      - "Multiple Scholarships"
       - "IEEEXtreme 17: #3 in Canada, #573 Wordlwide"
   - school_name: "V. N. Karazin Kharkiv National University"
     duration: "2009-2014"
     degree: "Master of Applied Physics"
-    department: "Radio Physics and Radio Electronics, speciality: Quantum physics"
+    department: "Radio Physics and Radio Electronics, Speciality: Quantum Physics"
     awards_achievements: 
     - "Scholarships"
 
@@ -122,12 +118,12 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
+      - ""
   - title: "Awards"
     bullets:
       - "Winner"
   - title: "Activities/Hobbies"
     bullets:
       - "Canadian musician, multiple time grant recepient"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - ""
+      - ""
