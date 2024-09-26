@@ -1,36 +1,46 @@
 # Preferred name (Characters only)
-name: "John Smith"
+name: "Peter Verzhanskyi"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
-
+summary: I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role. 
+With three years of my college experience and almost a decade of experience in IT industry and multiple projects 
+under my belt, I am passionate about building user-friendly, accessible and inclusive application that imporve efficiency
+and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies compliment my strong communication
+and collaboration skills developed during my college tenure, as well as during years of my professional experience in IT/Tech industry.
+Prioritazing feedback and utilizing an interative development process, my empath for the the client experience ensures that my work
+exceeds their expectation. I thrive in fast-paced environments wher my skills, resilience and adaptibility shine and I am eager and excited
+to bring my skills and enthusiasm to your team by delivering exception software sollutions.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
     - Java
+    - JavaScript
+    - Python
     - Linux/Bash
     - RDBMS/SQL
+    - NoSQL/MongoDB
     - Agile/Scrum
     - Git
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - NextJS
+    - Laravel
+    - Angular
+    - iOS Development
+    - ReactNative
+    - HTML/CSS
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - C#/.NET
+    - Android Development
+    - TypeScript
+    - SpringBoot
+    - jQuery
 
 # List of Jarvis projects
 jarvis_projects:
