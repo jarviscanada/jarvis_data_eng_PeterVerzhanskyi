@@ -4,6 +4,7 @@
 cmd=$1
 db_username=$2
 db_password=$3
+db_name=$4  # Added for the database name
 
 # Function to check if Docker is running
 start_docker() {
@@ -28,9 +29,9 @@ case $cmd in
       exit 1
     fi
 
-    # Check if username and password are provided
-    if [ $# -ne 3 ]; then
-      echo 'Error: Create requires username and password'
+    # Check if username, password, and db_name are provided
+    if [ $# -ne 4 ]; then
+      echo 'Error: Create requires username, password, and database name'
       exit 1
     fi
 
@@ -39,8 +40,8 @@ case $cmd in
     docker run --name jrvs-psql -e POSTGRES_USER="$db_username" -e POSTGRES_PASSWORD="$db_password" -d -v jrvs-psql-vol:/var/lib/postgresql/data -p 5432:5432 postgres
     # Wait a moment for the container to be fully initialized
     sleep 5
-    # Create database inside the container
-    docker exec -it jrvs-psql psql -U "$db_username" -c "CREATE DATABASE $db_username;"
+    # Create the specified database inside the container
+    docker exec -it jrvs-psql psql -U "$db_username" -c "CREATE DATABASE $db_name;"
     exit $?
     ;;
 
