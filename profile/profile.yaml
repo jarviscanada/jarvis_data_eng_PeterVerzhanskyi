@@ -41,8 +41,7 @@ jarvis_projects:
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. 
-    Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.
+    description: Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.
   - name: "Core Java Apps"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/core_java"
     description:
