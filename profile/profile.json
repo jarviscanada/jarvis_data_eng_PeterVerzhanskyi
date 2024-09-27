@@ -1,0 +1,141 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Multiple Scholarships",
+        "IEEEXtreme 17: #3 in Canada, #573 Worldwide"
+      ],
+      "degree": "Advanced College Diploma",
+      "department": "Computer Programming and Analysis",
+      "duration": "2021-2024",
+      "school_name": "George Brown College"
+    },
+    {
+      "awards_achievements": [
+        "Scholarships"
+      ],
+      "degree": "Master of Applied Physics",
+      "department": "Radio Physics and Radio Electronics, Speciality: Quantum Physics",
+      "duration": "2009-2014",
+      "school_name": "V. N. Karazin Kharkiv National University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi",
+  "highlighted_projects": [
+    {
+      "description": "MaplePay is a Capstone Project, built using NoSQL/MongoDB, Angular and React. It is a fintech WiP project, built to provide a seamless experience through a Web-app and a ReactNative solution.",
+      "git_url": "https://github.com/PeterVerzhansky/MaplePayApp",
+      "name": "Capstone Project: MaplePay app"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/python_data_analytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Peter Verzhanskyi",
+  "others": [
+    {
+      "bullets": [
+        "Placeholder"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Placeholder"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Canadian musician, multiple time grant recipient"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Collaborated with an agile team to support the development of multiple projects. Created a Linux cluster monitoring agent to collect node performance data, leveraging Docker, Bash scripting, and PostgreSQL.",
+      "duration": "2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "789ten.com",
+      "description": "Contributed to fixing and completing various bugs and tasks in NextJS and Laravel applications. Created clear, well-documented pull requests and worked closely with lead developers to prioritize tasks in a ticketing system. Utilized SQL expertise to optimize slow-performing queries.",
+      "duration": "2024-2024",
+      "title": "Junior Full-Stack Developer"
+    },
+    {
+      "company": "Ponacka Capital Ltd.",
+      "description": "Oversaw a Windows-based environment, ensuring optimal system performance and security. Managed hardware maintenance, performed system upgrades, and implemented improvements. Delivered technical support to staff, resolving issues efficiently and boosting productivity.",
+      "duration": "2017-2023",
+      "title": "System Administrator/IT Consultant"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "NextJS",
+      "Laravel",
+      "Angular",
+      "iOS Development",
+      "ReactNative",
+      "HTML/CSS"
+    ],
+    "familiar": [
+      "C#/.NET",
+      "Android Development",
+      "TypeScript",
+      "SpringBoot",
+      "jQuery"
+    ],
+    "proficient": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "NoSQL/MongoDB",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions."
+}
