@@ -1,23 +1,49 @@
 package ca.jrvs.apps.stockquote.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Quote {
 
+    @JsonProperty("01. symbol")
     private String symbol;
+
+    @JsonProperty("02. open")
     private BigDecimal open;
+
+    @JsonProperty("03. high")
     private BigDecimal high;
+
+    @JsonProperty("04. low")
     private BigDecimal low;
+
+    @JsonProperty("05. price")
     private BigDecimal price;
-    private int volume;
+
+    @JsonProperty("06. volume")
+    private Integer volume;
+
+    @JsonProperty("07. latest trading day")
     private LocalDate latestTradingDay;
+
+    @JsonProperty("08. previous close")
     private BigDecimal previousClose;
+
+    @JsonProperty("09. change")
     private BigDecimal change;
+
+    @JsonProperty("10. change percent")
     private String changePercent;
 
+    // Default constructor (required for Jackson)
+    public Quote() {
+    }
+
+    // Parameterized constructor (optional, for convenience)
     public Quote(String symbol, BigDecimal open, BigDecimal high, BigDecimal low, BigDecimal price,
-                 int volume, LocalDate latestTradingDay, BigDecimal previousClose,
+                 Integer volume, LocalDate latestTradingDay, BigDecimal previousClose,
                  BigDecimal change, String changePercent) {
         this.symbol = symbol;
         this.open = open;
@@ -31,7 +57,7 @@ public class Quote {
         this.changePercent = changePercent;
     }
 
-    // Add getters
+    // Getters
     public String getSymbol() {
         return symbol;
     }
@@ -52,7 +78,7 @@ public class Quote {
         return price;
     }
 
-    public int getVolume() {
+    public Integer getVolume() {
         return volume;
     }
 

@@ -1,5 +1,6 @@
-ca/jrvs/apps/stockquote/dao/QuoteDao.class
 ca/jrvs/apps/stockquote/service/QuoteService.class
+ca/jrvs/apps/stockquote/util/QuoteDao.class
 ca/jrvs/apps/stockquote/dao/CrudeRepository.class
 ca/jrvs/apps/stockquote/model/Quote.class
 ca/jrvs/apps/stockquote/Main.class
+ca/jrvs/apps/stockquote/util/QuoteHttpHelper.class
