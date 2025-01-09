@@ -23,7 +23,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi",
   "highlighted_projects": [
     {
-      "description": "MaplePay is a Capstone Project, built using NoSQL/MongoDB, Angular and React. It is a fintech WiP project, built to provide a seamless experience through a Web-app and a ReactNative solution.",
+      "description": "MaplePay is a Capstone Project, built using NoSQL/MongoDB, Angular and React. It is a fintech demo project, built to provide a seamless experience through a Web-app and a ReactNative solution.",
       "git_url": "https://github.com/PeterVerzhansky/MaplePayApp",
       "name": "Capstone Project: MaplePay app"
     }
@@ -36,9 +36,8 @@
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "Grep App: Developed a robust simulation of the Linux Grep Command Line Tool in Core Java. Leveraged Maven for build management and Docker for deployment. This tool allows users to input a regex pattern, specify a starting directory, and select an output file, generating a comprehensive list of matched lines for further analysis, enhancing search efficiency and data handling.",
+        "Stock Quote App: Developed a Personal Stock Wallet application in Core Java, allowing users to buy, sell, and track stocks effortlessly. Integrated an external RESTful API for real-time stock data retrieval and utilized PostgreSQL via JDBC for managing a centralized repository of stock information. This platform-independent application ensures seamless operation across various systems, enhancing user experience and accessibility."
       ],
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/core_java",
       "name": "Core Java Apps"
@@ -85,7 +84,7 @@
     },
     {
       "bullets": [
-        "Canadian musician, multiple time grant recipient"
+        "Canadian metal musician. Multiple artist grant receipient. "
       ],
       "title": "Activities/Hobbies"
     }
@@ -99,7 +98,7 @@
     },
     {
       "company": "789ten.com",
-      "description": "Contributed to fixing and completing various bugs and tasks in NextJS and Laravel applications. Created clear, well-documented pull requests and worked closely with lead developers to prioritize tasks in a ticketing system. Utilized SQL expertise to optimize slow-performing queries.",
+      "description": "Contributed to fixing various bugs and completeing different tasks in NextJS and Laravel applications. Created clear, well-documented pull requests and worked closely with lead developers to prioritize tasks in a ticketing system. Utilized SQL expertise to optimize slow-performing queries.",
       "duration": "2024-2024",
       "title": "Junior Full-Stack Developer"
     },
