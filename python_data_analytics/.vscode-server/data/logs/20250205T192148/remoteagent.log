@@ -1,0 +1,31 @@
+2025-02-05 19:21:48.521 [info] 
+
+
+
+
+2025-02-05 19:21:48.521 [info] Installing extensions...
+2025-02-05 19:21:48.521 [info] Extension host agent started.
+2025-02-05 19:21:48.542 [info] [127.0.0.1][4576993f][ManagementConnection] New connection established.
+2025-02-05 19:21:48.543 [debug] Error while reading the extension cache file: /home/jovyan/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/jovyan/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/jovyan/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2025-02-05 19:21:48.546 [info] Started initializing default profile extensions in extensions installation folder. file:///home/jovyan/.vscode-server/extensions
+2025-02-05 19:21:48.587 [info] Log level changed to info
+2025-02-05 19:21:48.711 [info] [127.0.0.1][737a626e][ExtensionHostConnection] New connection established.
+2025-02-05 19:21:48.738 [info] [127.0.0.1][737a626e][ExtensionHostConnection] <59267> Launched Extension Host Process.
+2025-02-05 19:21:48.798 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/jovyan/.vscode-server/extensions
+2025-02-05 19:21:50.538 [info] Installing extension 'github.copilot-chat'...
+2025-02-05 19:21:50.540 [info] Getting Manifest... github.copilot-chat
+2025-02-05 19:21:50.578 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/jovyan/.vscode-server/extensions/extensions.json","external":"file:///home/jovyan/.vscode-server/extensions/extensions.json","path":"/home/jovyan/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-05 19:21:50.895 [info] Getting Manifest... github.copilot
+2025-02-05 19:21:50.946 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/jovyan/.vscode-server/extensions/extensions.json","external":"file:///home/jovyan/.vscode-server/extensions/extensions.json","path":"/home/jovyan/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-05 19:21:54.585 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 1863ms.
+2025-02-05 19:21:54.776 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 2095ms.
+2025-02-05 19:21:55.685 [info] Extracted extension to file:///home/jovyan/.vscode-server/extensions/github.copilot-chat-0.23.2: github.copilot-chat
+2025-02-05 19:21:55.700 [info] Renamed to /home/jovyan/.vscode-server/extensions/github.copilot-chat-0.23.2
+2025-02-05 19:21:55.794 [info] Extracted extension to file:///home/jovyan/.vscode-server/extensions/github.copilot-1.264.0: github.copilot
+2025-02-05 19:21:55.801 [info] Renamed to /home/jovyan/.vscode-server/extensions/github.copilot-1.264.0
+2025-02-05 19:21:55.807 [info] Extension installed successfully: github.copilot-chat file:///home/jovyan/.vscode-server/extensions/extensions.json
+2025-02-05 19:21:55.807 [info] Extension installed successfully: github.copilot file:///home/jovyan/.vscode-server/extensions/extensions.json
+2025-02-05 19:21:55.809 [info] Extension 'github.copilot-chat' v0.23.2 was successfully installed.
+2025-02-05 19:21:55.809 [info] Extension 'github.copilot' v1.264.0 was successfully installed.
+2025-02-05 19:22:11.208 [info] [127.0.0.1][4576993f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-05 19:22:11.370 [info] [127.0.0.1][737a626e][ExtensionHostConnection] <59267> Extension Host Process exited with code: 0, signal: null.
