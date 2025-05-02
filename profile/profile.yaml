@@ -105,13 +105,14 @@ education:
 #Optional section
 others:
     #category
-  # - title: "Certificates"
-  #   #list of items
-  #   bullets:
-  #     - "Placeholder"
-  # - title: "Awards"
-  #   bullets:
-  #     - "Placeholder"
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Trailehead Badges Completed"
+  - title: "Awards"
+    bullets:
+      - "George Brown College Student Grants"
+      - "Artist Development Grants for Canadian Musicians"
   - title: "Activities/Hobbies"
     bullets:
       - "Canadian metal musician. Multiple artist development grant receipient. Working in a band is like working in a team, so its a great experience for buildingh skills like collaboration and communication "
