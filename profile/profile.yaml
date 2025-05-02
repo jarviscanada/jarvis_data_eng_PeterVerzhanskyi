@@ -5,12 +5,13 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_PeterVerzh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
+summary: I am a graduate from George Brown College seeking a Salesforce Developer, Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Salesforce, Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
+    - Salesforce
     - Java
     - JavaScript
     - Python
@@ -41,28 +42,21 @@ jarvis_projects:
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.
+    description: "Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system."
   - name: "Core Java Apps"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/core_java"
     description:
       - "Grep App: Developed a robust simulation of the Linux Grep Command Line Tool in Core Java. Leveraged Maven for build management and Docker for deployment. This tool allows users to input a regex pattern, specify a starting directory, and select an output file, generating a comprehensive list of matched lines for further analysis, enhancing search efficiency and data handling."
       - "Stock Quote App: Developed a Personal Stock Wallet application in Core Java, allowing users to buy, sell, and track stocks effortlessly. Integrated an external RESTful API for real-time stock data retrieval and utilized PostgreSQL via JDBC for managing a centralized repository of stock information. This platform-independent application ensures seamless operation across various systems, enhancing user experience and accessibility."
-  - name: "Springboot App"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/springboot"
-    description: ""
   - name: "Python Data Analytics"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/python_data_analytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/hadoop"
-    description: ""
+    description: "Delivered data-driven insights for an online retailer by analyzing sales performance and customer behavior. Produced reports on user growth, revenue trends, and business KPIs. Segmented customers using RFM (Recency, Frequency, Monetary) scoring to support targeted marketing strategies. Explored opportunities to accelerate company growth through actionable recommendations based on analytical findings. Tools and technologies: Python, Jupyter Notebook, PostgreSQL, Docker."
   - name: "Spark"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/cloud_devops"
-    description: ""
-
+    description: "Drove insights from World Development Indicators and retail datasets using PySpark on Google Cloud Dataproc (Zeppelin notebook) and Azure Databricks (notebook environment). Processed millions of records with distributed computing to extract country-level GDP and development metrics, and analyzed retail sales trends, growth rates, and new user acquisition. Delivered actionable strategies to boost revenue and customer growth by leveraging cloud-native big data tools like GCP Storage, Azure Data Lake, and Spark SQL."
+  - name: "Salesforce"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main"
+    description: "Developed a flexible account management app using Salesforce Lightning Web Components (LWC) to deliver dynamic and responsive user experiences. Implemented custom components for editing, filtering, and displaying account records, integrating with Salesforce data services via Apex controllers. Strengthened skills in Salesforce platform development by working with Lightning App Builder, custom objects, and reusable component design patterns. Technologies used: Salesforce Platform, Lightning Web Components, Apex, SOQL, Visualforce, and Trailhead Playground."
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
@@ -114,10 +108,11 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Placeholder"
+      - "Salesforce Trailhead Badges Earned"
   - title: "Awards"
     bullets:
-      - "Placeholder"
+      - "George Brown College Student Grants"
+      - "Artist Development Grants for Canadian Musicians"
   - title: "Activities/Hobbies"
     bullets:
-      - "Canadian metal musician. Multiple artist grant receipient. "
+      - "Canadian metal musician and multiple-time recipient of artist development grants. Band experience has strengthened skills in collaboration, communication, leadership, and project coordination."
