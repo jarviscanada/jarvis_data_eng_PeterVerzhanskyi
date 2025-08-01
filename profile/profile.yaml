@@ -5,13 +5,13 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_PeterVerzh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a graduate from George Brown College seeking a Salesforce Developer, Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Salesforce, Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
+summary: I am a George Brown College graduate actively pursuing a Data Engineering role, with a strong focus on PySpark, Databricks, and distributed data processing. Backed by nearly a decade in IT and recent hands-on experience with cloud-native tools like Azure Databricks, I specialize in building scalable data pipelines and performing in-depth analytics using Spark, Python, and SQL. I am passionate about transforming raw data into actionable insights and thrive in environments that demand critical thinking, adaptability, and collaboration. Working towards Databricks Data Engineer Associate Certificates. My mission is to bring value to data-driven teams by engineering robust, optimized, and maintainable solutions.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Salesforce
+    - PySpark
     - Java
     - JavaScript
     - Python
@@ -20,6 +20,7 @@ skills:
     - NoSQL/MongoDB
     - Agile/Scrum
     - Git
+    - Salesforce
   # At least 5 skills
   competent:
     - NextJS
@@ -57,6 +58,9 @@ jarvis_projects:
   - name: "Salesforce"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main"
     description: "Developed a flexible account management app using Salesforce Lightning Web Components (LWC) to deliver dynamic and responsive user experiences. Implemented custom components for editing, filtering, and displaying account records, integrating with Salesforce data services via Apex controllers. Strengthened skills in Salesforce platform development by working with Lightning App Builder, custom objects, and reusable component design patterns. Technologies used: Salesforce Platform, Lightning Web Components, Apex, SOQL, Visualforce, and Trailhead Playground."
+  - name: "Databricks ETL Pipeline"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/spark"
+    description: "Designed and implemented a full-scale ETL pipeline using the Medallion Architecture (Bronze, Silver, Gold) on Azure Databricks to process booking data for a fictional club. Ingested raw CSV files into Delta tables (Bronze), enriched and joined datasets with member and facility dimensions (Silver), and aggregated business metrics for BI (Gold). Created dashboards in Databricks SQL to visualize revenue breakdowns, facility usage, and booking trends. Optimized transformation logic with PySpark and notebook modularization, and incorporated best practices like schema enforcement, time travel, and data lineage with Unity Catalog. Tools and technologies: Databricks, PySpark, Delta Lake, SQL, Unity Catalog, Azure Data Lake."
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
@@ -108,6 +112,7 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
+      - "Working towards Databricks Data Engineer Associate"
       - "Salesforce Trailhead Badges Earned"
   - title: "Awards"
     bullets:
@@ -115,4 +120,4 @@ others:
       - "Artist Development Grants for Canadian Musicians"
   - title: "Activities/Hobbies"
     bullets:
-      - "Canadian metal musician and multiple-time recipient of artist development grants. Band experience has strengthened skills in collaboration, communication, leadership, and project coordination."
+      - "Canadian rock musician and multiple-time recipient of artist development grants. Band experience has strengthened skills in collaboration, communication, leadership, and project coordination."

@@ -1,10 +1,10 @@
 # Peter Verzhanskyi . Jarvis Consulting
 
-I am a recent graduate from George Brown College seeking a Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions.
+I am a George Brown College graduate actively pursuing a Data Engineering role, with a strong focus on PySpark, Databricks, and distributed data processing. Backed by nearly a decade in IT and recent hands-on experience with cloud-native tools like Azure Databricks, I specialize in building scalable data pipelines and performing in-depth analytics using Spark, Python, and SQL. I am passionate about transforming raw data into actionable insights and thrive in environments that demand critical thinking, adaptability, and collaboration. Working towards Databricks Data Engineer Associate Certificates. My mission is to bring value to data-driven teams by engineering robust, optimized, and maintainable solutions.
 
 ## Skills
 
-**Proficient:** Java, JavaScript, Python, Linux/Bash, RDBMS/SQL, NoSQL/MongoDB, Agile/Scrum, Git
+**Proficient:** PySpark, Java, JavaScript, Python, Linux/Bash, RDBMS/SQL, NoSQL/MongoDB, Agile/Scrum, Git, Salesforce
 
 **Competent:** NextJS, Laravel, Angular, iOS Development, ReactNative, HTML/CSS
 
@@ -22,15 +22,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_PeterVerzh
   - Grep App: Developed a robust simulation of the Linux Grep Command Line Tool in Core Java. Leveraged Maven for build management and Docker for deployment. This tool allows users to input a regex pattern, specify a starting directory, and select an output file, generating a comprehensive list of matched lines for further analysis, enhancing search efficiency and data handling.
   - Stock Quote App: Developed a Personal Stock Wallet application in Core Java, allowing users to buy, sell, and track stocks effortlessly. Integrated an external RESTful API for real-time stock data retrieval and utilized PostgreSQL via JDBC for managing a centralized repository of stock information. This platform-independent application ensures seamless operation across various systems, enhancing user experience and accessibility.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/springboot)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/python_data_analytics)]: Delivered data-driven insights for an online retailer by analyzing sales performance and customer behavior. Produced reports on user growth, revenue trends, and business KPIs. Segmented customers using RFM (Recency, Frequency, Monetary) scoring to support targeted marketing strategies. Explored opportunities to accelerate company growth through actionable recommendations based on analytical findings. Tools and technologies: Python, Jupyter Notebook, PostgreSQL, Docker.
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/python_data_analytics)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/spark)]: Drove insights from World Development Indicators and retail datasets using PySpark on Google Cloud Dataproc (Zeppelin notebook) and Azure Databricks (notebook environment). Processed millions of records with distributed computing to extract country-level GDP and development metrics, and analyzed retail sales trends, growth rates, and new user acquisition. Delivered actionable strategies to boost revenue and customer growth by leveraging cloud-native big data tools like GCP Storage, Azure Data Lake, and Spark SQL.
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main/cloud_devops)]: Not Started
+**Salesforce** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_PeterVerzhanskyi/tree/main)]: Developed a flexible account management app using Salesforce Lightning Web Components (LWC) to deliver dynamic and responsive user experiences. Implemented custom components for editing, filtering, and displaying account records, integrating with Salesforce data services via Apex controllers. Strengthened skills in Salesforce platform development by working with Lightning App Builder, custom objects, and reusable component design patterns. Technologies used: Salesforce Platform, Lightning Web Components, Apex, SOQL, Visualforce, and Trailhead Playground.
 
 
 ## Highlighted Projects
@@ -56,6 +52,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_PeterVerzh
 
 
 ## Miscellaneous
-- Placeholder
-- Placeholder
-- Canadian metal musician. Multiple artist grant receipient. 
+- Working towards Databricks Data Engineer Associate
+- Salesforce Trailhead Badges Earned
+- George Brown College Student Grants
+- Artist Development Grants for Canadian Musicians
+- Canadian rock musician and multiple-time recipient of artist development grants. Band experience has strengthened skills in collaboration, communication, leadership, and project coordination.

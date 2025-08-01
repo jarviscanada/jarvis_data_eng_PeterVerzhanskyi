@@ -62,6 +62,7 @@
   "others": [
     {
       "bullets": [
+        "Working towards Databricks Data Engineer Associate",
         "Salesforce Trailhead Badges Earned"
       ],
       "title": "Certificates"
@@ -75,7 +76,7 @@
     },
     {
       "bullets": [
-        "Canadian metal musician and multiple-time recipient of artist development grants. Band experience has strengthened skills in collaboration, communication, leadership, and project coordination."
+        "Canadian rock musician and multiple-time recipient of artist development grants. Band experience has strengthened skills in collaboration, communication, leadership, and project coordination."
       ],
       "title": "Activities/Hobbies"
     }
@@ -117,7 +118,7 @@
       "jQuery"
     ],
     "proficient": [
-      "Salesforce",
+      "PySpark",
       "Java",
       "JavaScript",
       "Python",
@@ -125,8 +126,9 @@
       "RDBMS/SQL",
       "NoSQL/MongoDB",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "Salesforce"
     ]
   },
-  "summary": "I am a graduate from George Brown College seeking a Salesforce Developer, Software Developer or Data Engineer role. With three years of college experience and nearly a decade in the IT industry, I have worked on multiple projects that fueled my passion for building user-friendly, accessible, and inclusive applications that improve efficiency and productivity. My proficiency in Salesforce, Java, JavaScript, Python, Laravel, and other technologies complements my strong communication and collaboration skills, developed both during my college tenure and through years of professional experience in the IT/Tech industry. By prioritizing feedback and using an iterative development process, I ensure that my empathy for the client experience allows me to exceed expectations. I thrive in fast-paced environments where my skills, resilience, and adaptability shine, and I am eager to bring my enthusiasm and expertise to your team by delivering exceptional software solutions."
+  "summary": "I am a George Brown College graduate actively pursuing a Data Engineering role, with a strong focus on PySpark, Databricks, and distributed data processing. Backed by nearly a decade in IT and recent hands-on experience with cloud-native tools like Azure Databricks, I specialize in building scalable data pipelines and performing in-depth analytics using Spark, Python, and SQL. I am passionate about transforming raw data into actionable insights and thrive in environments that demand critical thinking, adaptability, and collaboration. Working towards Databricks Data Engineer Associate Certificates. My mission is to bring value to data-driven teams by engineering robust, optimized, and maintainable solutions."
 }
