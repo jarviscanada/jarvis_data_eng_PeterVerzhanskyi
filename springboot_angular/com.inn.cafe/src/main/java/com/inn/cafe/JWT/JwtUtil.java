@@ -23,7 +23,21 @@ public class JwtUtil {
         return extractClaims(token, Claims::getExpiration);
     }
 
+    public String extractRole(String token){
+        Object role = extractAllClaims(token).get("role");
+        return role == null ? null : role.toString();
+    }
 
+    public java.util.List<String> extractRoles(String token){
+        Object val = extractAllClaims(token).get("roles");
+        if (val instanceof java.util.Collection<?>){
+            java.util.List<String> out = new java.util.ArrayList<>();
+            for (Object o : (java.util.Collection<?>) val) out.add(String.valueOf(o));
+            return out;
+        }
+        String single = extractRole(token);
+        return single == null ? java.util.List.of() : java.util.List.of(single);
+    }
 
     public <T> T extractClaims(String token, Function<Claims, T> claimsResolver){
         final Claims claims = extractAllClaims(token);
