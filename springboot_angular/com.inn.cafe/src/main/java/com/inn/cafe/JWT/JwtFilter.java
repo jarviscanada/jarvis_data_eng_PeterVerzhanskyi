@@ -36,33 +36,46 @@ public class JwtFilter extends OncePerRequestFilter {
 
         String authHeader = request.getHeader("Authorization");
 
-        if (authHeader != null && authHeader.startsWith("Bearer ")) {
-            String token = authHeader.substring(7);
+        // No Bearer header -> continue without auth
+        if (authHeader == null || !authHeader.startsWith("Bearer ")) {
+            filterChain.doFilter(request, response);
+            return;
+        }
 
-            String username = null;
-            try {
-                username = jwtUtil.extractUsername(token);
-            } catch (Exception ignored) {
-                // invalid token -> just continue unauthenticated
-            }
+        String token = authHeader.substring(7);
 
-            if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-                UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+        String username;
+        try {
+            username = jwtUtil.extractUsername(token);
+        } catch (Exception e) {
+            // Bad token -> continue unauthenticated
+            filterChain.doFilter(request, response);
+            return;
+        }
 
-                if (jwtUtil.validateToken(token, userDetails)) {
-                    // Build authorities from JWT role claim
-                    String role = jwtUtil.extractRole(token);
-                    List<GrantedAuthority> authorities =
-                            (role == null || role.isBlank())
-                                    ? Collections.emptyList()
-                                    : List.of(new SimpleGrantedAuthority("ROLE_" + role.toUpperCase()));
+        // Only set auth if not already set
+        if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
 
-                    UsernamePasswordAuthenticationToken authToken =
-                            new UsernamePasswordAuthenticationToken(userDetails, null, authorities);
+            // Load user (lets validate token against stored user + check expiry)
+            UserDetails userDetails = userDetailsService.loadUserByUsername(username);
 
-                    authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-                    SecurityContextHolder.getContext().setAuthentication(authToken);
-                }
+            if (jwtUtil.validateToken(token, userDetails)) {
+                // Map JWT "role" claim to Spring authority
+                String role = null;
+                try {
+                    role = jwtUtil.extractRole(token);
+                } catch (Exception ignored) { /* no role claim */ }
+
+                List<GrantedAuthority> authorities =
+                        (role == null || role.isBlank())
+                                ? Collections.emptyList()
+                                : List.of(new SimpleGrantedAuthority("ROLE_" + role.toUpperCase()));
+
+                UsernamePasswordAuthenticationToken authToken =
+                        new UsernamePasswordAuthenticationToken(userDetails, null, authorities);
+
+                authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                SecurityContextHolder.getContext().setAuthentication(authToken);
             }
         }
 
